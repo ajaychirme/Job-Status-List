@@ -23,11 +23,6 @@ const STATUS_STYLES = {
 };
 
 const INITIAL_JOBS = [
-  { id: 1, companyName: "Stripe",  roleTitle: "Senior Frontend Engineer", companyOrigin: "USA",   jobSource: "LinkedIn",        packageOffered: "₹45 LPA", expectedCTC: "₹50 LPA", techStack: "React, TypeScript, GraphQL", status: "Applied"   },
-  { id: 2, companyName: "Zepto",   roleTitle: "Lead React Developer",     companyOrigin: "India", jobSource: "Naukri",          packageOffered: "₹32 LPA", expectedCTC: "₹38 LPA", techStack: "React, Node.js, AWS",        status: "Interview" },
-  { id: 3, companyName: "Notion",  roleTitle: "Full Stack Engineer",      companyOrigin: "USA",   jobSource: "Company Website", packageOffered: "₹55 LPA", expectedCTC: "₹60 LPA", techStack: "React, Go, PostgreSQL",      status: "Offer"     },
-  { id: 4, companyName: "PhonePe", roleTitle: "Software Engineer II",     companyOrigin: "India", jobSource: "Referral",        packageOffered: "₹28 LPA", expectedCTC: "₹35 LPA", techStack: "Java, Spring Boot, Kafka",   status: "Applied"   },
-  { id: 5, companyName: "Figma",   roleTitle: "Product Engineer",         companyOrigin: "USA",   jobSource: "AngelList",       packageOffered: "₹70 LPA", expectedCTC: "₹75 LPA", techStack: "React, WebAssembly, C++",    status: "Rejected"  },
 ];
 
 const EMPTY_JOB = {
